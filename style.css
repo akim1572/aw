@@ -1,0 +1,17 @@
+:root {
+        --black: rgb(30, 30, 30);
+        --white: rgb(232, 232, 232);
+        --highlight: rgb(52, 125, 156);
+}
+
+* {
+        margin: 0;
+        padding: 0;
+        background-color: var(--black);
+        color: var(--white);
+}
+
+.bold {
+        color: var(--highlight);
+        font-weight: bold;
+}
