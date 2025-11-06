@@ -9,9 +9,54 @@
         padding: 0;
         background-color: var(--black);
         color: var(--white);
+        text-align: center;
+}
+
+header {
+        margin: 2em 0 2em;
+}
+
+#aboutme {
+        margin: 0 5em 0;
 }
 
 .bold {
         color: var(--highlight);
         font-weight: bold;
+}
+
+#projs {
+        margin: 2em 0 1em;
+}
+
+#projs h3 {
+        margin: 1em 0 1em;
+}
+
+#projs h5 {
+        margin: 0 0 1em;
+}
+
+.proj {
+        margin: 1em 5em 1em;
+}
+
+#posts {
+        margin: 2em 0 1em;
+}
+
+#socials {
+        margin: 2em 0 1em;
+        text-align: center;
+}
+
+#socials a {
+        font-weight: normal;
+        transition: 0.1s;
+        text-decoration: none;
+}
+
+#socials a:hover {
+        font-weight: bold;
+        transition: 0.1s;
 }
