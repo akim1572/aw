@@ -37,7 +37,22 @@ header {
         margin: 0 0 1em;
 }
 
-.proj {
+#projs div {
+        margin: 1em 0 1em;
+}
+
+#projs a {
+        text-decoration: none;
+        transition: 0.1s;
+}
+
+#projs a:hover {
+        color: var(--highlight);
+        font-size: 1.125em;
+        font-weight: bold;
+}
+
+.proj p {
         margin: 1em 5em 1em;
 }
 
@@ -45,9 +60,17 @@ header {
         margin: 2em 0 1em;
 }
 
+#posts p {
+        margin: 1em 0 1em;
+}
+
 #socials {
         margin: 2em 0 1em;
         text-align: center;
+}
+
+#socials div {
+        margin: 1em 0 1em;
 }
 
 #socials a {
@@ -57,6 +80,8 @@ header {
 }
 
 #socials a:hover {
+        color: var(--highlight);
+        font-size: 1.125em;
         font-weight: bold;
         transition: 0.1s;
 }
